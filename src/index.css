@@ -1,10 +1,31 @@
+:root {
+  --fonte: 'Montserrat', 'sans-serif';
+  --fonte-weight-normal: 400;
+  --fonte-weight-bold: 700;
+
+  --Branco: #FFFFFF;
+  --Preto: #000000;
+  --cinza: #E2E2E2;
+  --verde: #055e27;
+
+  --margin-small: 4px;
+  --margin-medium: 8px;
+  --margin-large: 16px;
+  --margin-extra-large: 32px;
+
+  --padding-small: 4px;
+  --padding-medium: 8px;
+  --padding-large: 16px;
+  --padding-extra-large: 32px;
+
+  --max-width: 1360px;
+  --min-width: 450px;
+}
+
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: var(--fonte)
 }
 
 code {
