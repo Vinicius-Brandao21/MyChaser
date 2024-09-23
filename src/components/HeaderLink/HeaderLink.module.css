@@ -4,4 +4,10 @@
     font-size: 20px;
     font-weight: 400;
     padding: 1em;
+    transition: all 0.3s ease;
+}
+
+.link:hover {
+    color: #b51212;
+    font-size: 24px;
 }

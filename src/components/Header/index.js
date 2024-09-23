@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import styles from './Header.module.css';
 import imgCapa from './logo.png';
 import HeaderLink from 'components/HeaderLink';
+import Hamburguer from 'components/Hamburguer';
 
 function Header() {
     return (
@@ -17,6 +18,10 @@ function Header() {
                 <HeaderLink url='./Sobre'>
                     Sobre
                 </HeaderLink>
+                <HeaderLink url='./'>
+                    MyChaser
+                </HeaderLink>
+                <Hamburguer />
             </nav>
         </header>
     )

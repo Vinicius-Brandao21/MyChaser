@@ -12,4 +12,38 @@
     box-shadow: 0 0 0 2px var(--cinza);
     object-fit: cover;
     border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.header img:hover {
+    box-shadow: 0 0 0 2px grey;
+}
+
+.header nav a:last-of-type {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        padding: 0.6em 2em;
+        justify-content: flex-start;
+    }
+
+    .header img {
+        display: none;
+    }
+
+    .header nav {
+        display: flex;
+        width: 100%;
+    }
+
+    .header nav a:not(:last-child) {
+        display: none;
+    }
+
+    .header nav a:last-of-type {
+        display: flex;
+        margin-left: 0;
+    }
 }
